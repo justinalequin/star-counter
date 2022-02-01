@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100px;
+}
+
+#counter-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 66vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  color: white;
+}
+
+.stars-container {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.star-image {
+  width: 15px;
+  border: solid #fefe00 2px;
+  padding: 15px;
+  border-radius: 15px;
+}
